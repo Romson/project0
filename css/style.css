@@ -1,0 +1,159 @@
+/* Navbar bg color */
+.navbar-light {
+    background-color: rgb(11, 33, 61);
+}
+/* navbar brand color */
+a.navbar-brand {
+    color: white !important;
+}
+/* Navbar links text to uppercase */
+.navbar-nav li {
+    padding-right: 35px;
+    text-transform: uppercase;
+}
+/* Navbar links text color */
+.nav-link {
+    color: white !important;
+}
+/* Navbar links hover color */
+.links123:hover {
+    background: #ffc107;
+    border-radius: .2rem;
+    padding-left: 10px;
+}
+
+/* Div with H1 and button (mainPanelTop) / Relative position top (-Xpx) */
+.headerDiv {
+    padding-left: 45px;
+    position: relative;
+    top: 20px;
+}
+/* H1 mainPanelTop */
+h1 {
+    /* font-family: Roboto; */
+    font-size: 70px;
+    line-height: 72px;
+    font-weight: 50;
+    color: rgb(11, 33, 61);
+    padding-bottom: 10px;
+}
+/* Software text color */
+.softwareText {
+    color: lightskyblue;
+}
+/* Button text color */
+.buttonTextInfoBox {
+    color: #ffffff;
+    margin: 10px 0 20px;
+}
+/* Button text color hover */
+.buttonTextInfoBox:hover {
+    color: #ffffff;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size:44px;
+    }
+}
+@media screen and (max-width: 628px) {
+    h1 {
+        font-size:34px;
+    }
+}
+@media screen and (max-width: 528px) {
+    h1 {
+        font-size:24px;
+    }
+}
+
+/* Background image (mainPanelTop) */
+#imageTop {
+    background-repeat: no-repeat;
+    background-image: url("../images/creativeDeveloper.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 1; 
+    visibility: inherit;
+    z-index: 20;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/* div with 3 info boxes under imageTop */
+.mainTop {
+    margin: auto;
+    position: relative;
+    top: 180px;
+}
+/* 3 info boxes styling */
+.divPadding {
+    /* background-color: lightskyblue; */
+    background-image: url("../images/columnbg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 40px 40px 25px;
+    margin-right: 10px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/* 3 info boxes pricing */
+.rate {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+/* Subline rates */
+.subLineRate {
+    color: #00bae1;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.h4Line {
+    color: #fff; 
+    border-top: 2px solid rgba(255,255,255,.2); 
+    padding-top: 35px;
+    margin-top: 20px;
+    clear: both;
+}
+/*divPadding P elements */
+.divPadding p {
+    color: #b7daed;
+    margin: 0 0 15px;
+}
+
+/*IconSection styling */
+#iconsSection h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: rgb(11, 33, 61);
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+/* iconsSectionRow width */
+.iconsSectionRow {
+    width: 80%;
+    margin: auto;
+}
+.iconSectionH2 {
+    color: lightskyblue;
+}
+.imageIcons {
+    align-content: left !important;
+}
+div.col-lg-6 {
+    margin-bottom: 60px;
+}
+.col-md-9 {
+    padding-left: 40px;
+}
