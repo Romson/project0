@@ -195,7 +195,7 @@ blockquote {
 .listItems > li {
     padding-bottom: 5px;
 }
-/* Media queries for different screen sizes <li> listItemsRows */
+/* Media queries for different screen sizes <li> listItemsRow */
 @media screen and (max-width: 1100px) {
     .listItemsRow {
         width: inherit;
@@ -238,7 +238,7 @@ blockquote {
 .footer1 a:hover {
     text-decoration: none;
 }
-.fa-globe, .footerText {
+.fa-globe, .footerText, .footer2, .footer3, .footer4 h2 {
     color: #b5b5b5; 
 }
 .footerIcons {
@@ -257,9 +257,6 @@ p.footerText  {
 }
 
 /* Footer <li> styling */
-.footer2, .footer3, .footer4 h2 {
-    color: #b5b5b5;
-}
 .footerUl {
     font-weight: 700;
     padding-left: 0 !important;
