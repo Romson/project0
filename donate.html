@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/variables.css">
     </head>
     <body>
         <!--Navbar-->
@@ -52,8 +53,37 @@
                     <h2 class="missionAboutUs">Donate to charity</h2>
                     <h5>Commitment move the needle unprecedented</h5>
                     <p class="paraGraph1">
-                        Collaborative consumption because targeted design thinking, agile rubric systems thinking; indicators innovation impact investing thought leadership. Grit venture philanthropy capacity building youth empower rubric; relief academic commitment because dynamic. Accessibility systems thinking, correlation resist inclusive incubator deep dive fairness; deep dive; thought provoking philanthropy indicators when.
-                    </p>
+                        <!--Table-->
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">First name</th>
+                                    <th scope="col">Last name</th>
+                                    <th scope="col">Donated</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Brian</td>
+                                    <td>Yu</td>
+                                    <td>$50 monthly</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Doug</td>
+                                    <td>Lloyd</td>
+                                    <td>$150 monthly</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>David J.</td>
+                                    <td>Malan</td>
+                                    <td>$500</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     <p>
                         Social capital effective altruism, social impact radical venture philanthropy resilient. Ecosystem ideate engaging, relief, corporate social responsibility transparent energize. Issue outcomes, contextualize, LGBTQ+, natural resources best practices vibrant. Inclusion social impact preliminary thinking communities scale and impact capacity building. Ideate, scale and impact communities, social entrepreneur NGO thought leader agile think tank sustainable families.
                     </p>
@@ -69,7 +99,7 @@
                     <form class="form-inline">
                         <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><strong>How much do you wanna donate?</strong></label>
                         <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                            <option selected>Be a Hero Today and give to Charity</option>
+                            <option selected>Be a Hero and give to charity</option>
                             <option value="1">$50</option>
                             <option value="2">$150</option>
                             <option value="3">$500</option>
@@ -77,7 +107,7 @@
                           
                         <div class="custom-control custom-checkbox my-1 mr-sm-2">
                             <input type="checkbox" class="custom-control-input" id="customControlInline">
-                            <label class="custom-control-label" for="customControlInline">Monthly donation</label>
+                            <label class="custom-control-label" for="customControlInline">Monthly donation?</label>
                         </div>                                               
                     </form>
                     <div>

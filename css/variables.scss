@@ -1,0 +1,36 @@
+$color: #00b9e2;
+
+/* Header1 text styling */
+.headerTextColor {
+    color: $color;
+}
+
+/* About us page styling */
+.visionAboutUs:before {
+    background: $color;
+}
+.missionAboutUs:before {
+    background: $color;
+}
+
+/* divPadding P elements */
+.divPadding {
+    p {
+    color: #b7daed;
+    margin: 0 0 15px;
+    }
+}
+
+/* SCSS Inheritance */
+%inheritFooter {
+    margin-top: 80px;
+}
+%footerStyling {
+    color: #b5b5b5; 
+}
+.footer1, .footer2, .footer3, .footer4 {
+    @extend %inheritFooter;
+}
+.fa-globe, .footerText, .footer2, .footer3, .footer4 h2 {
+    @extend %footerStyling; 
+}
