@@ -241,10 +241,7 @@ blockquote {
 .footer1 a:hover {
     text-decoration: none;
 }
-<<<<<<< HEAD
 /* SCSS inheritance //
-=======
->>>>>>> 85376acd079f67367a31373a5d4544d6ada41982
 .fa-globe, .footerText, .footer2, .footer3, .footer4 h2 {
     color: #b5b5b5; 
 } */
@@ -264,10 +261,6 @@ p.footerText  {
 }
 
 /* Footer <li> styling */
-<<<<<<< HEAD
-
-=======
->>>>>>> 85376acd079f67367a31373a5d4544d6ada41982
 .footerUl {
     font-weight: 700;
     padding-left: 0 !important;
