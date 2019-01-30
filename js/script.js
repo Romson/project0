@@ -1,4 +1,4 @@
-//Google Maps
+//Google Maps loc.
 function myMap() {
     var mapCanvas = document.getElementById("GoogleMaps");
     var mapOptions = {
